@@ -1,0 +1,16 @@
+.bgupperfooter{
+background-color: #2C3E50;
+}
+.bglowerfooter{
+    background-color: #1A252F;
+}
+.roundedCircle{
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

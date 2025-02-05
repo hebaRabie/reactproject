@@ -1,0 +1,44 @@
+.nav-link{
+    color: #fff;
+}
+body{
+    background-color: #1ABC9C;
+}
+.active{
+    background-color: #1ABC9C;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+}
+.line{
+    width: 80px;
+    height: 5px;
+}
+.line-light{
+    background-color: #fff;
+}
+.star-light{
+    color: #fff;
+}
+.line-dark{
+    background-color: #2C3E50;
+}
+.star-dark{
+    color: #2C3E50;
+}
+/* Portfolio */
+.bg-blue{
+    background-color: var(--primary-color);
+    opacity: 0;
+    transition: 300ms all;
+  }
+  .card:hover {
+    .bg-blue{
+      opacity: 1;
+  
+    }
+  }
+  .bg-blue-trans{
+    background-color: rgba(3, 110, 253, .25);
+  }
+    
